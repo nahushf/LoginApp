@@ -1,0 +1,44 @@
+body {
+    background: #F5F5F5;
+}
+
+.login-page {
+    text-align: center;
+}
+
+.login-page .form {
+    display: block;
+    box-shadow: 1px 1px 1px grey ; 
+}
+
+.login-page input {
+    width: 100%;
+    display: block;
+    border-radius: 50px;
+    margin: 20px 0px;
+    padding: 10px;
+}
+
+.login-page input:focus {
+    outline: none;
+}
+
+.login-page .error{
+    color: red;
+}
+
+.home {
+    margin: auto;
+    text-align: center;
+    width: 600px;
+}
+
+.login-page button {
+    border: 1px solid steelblue;
+    width: 100%;
+    padding: 10px;
+    background: steelblue;
+    display: block;
+    color: white;
+    border-radius: 50px
+}
